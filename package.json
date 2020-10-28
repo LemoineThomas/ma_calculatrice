@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LemoineThomas/fiches_kilometrique.git"
+    "url": "git+https://github.com/LemoineThomas/ma_calculatrice.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LemoineThomas/fiches_kilometrique/issues"
+    "url": "https://github.com/LemoineThomas/ma_calculatrice/issues"
   },
-  "homepage": "https://github.com/LemoineThomas/fiches_kilometrique#readme",
+  "homepage": "https://github.com/LemoineThomas/ma_calculatrice#readme",
   "devDependencies": {
     "electron": "^10.1.2",
     "electron-builder": "^22.8.1"
