@@ -1,0 +1,42 @@
+<%- include ('../header.ejs') %>
+
+<table style="height:100%; width:100%; ; position: absolute; top: 0; bottom: 0; left: 0; right: 0;">
+    <tr>
+        <th colspan="4" style="text-align: right" id="result">0</th>
+        <th rowspan="6" width="25%" style="vertical-align:top; padding-top: 10px;"><h5>Historique</h5><span id="historique"></span></th>
+    </tr>
+    
+    <tr>
+        <td class="operator"></td>
+        <td onclick="clearResult()" class="operator">C</td>
+        <td onclick="clickOperator('/')" class="operator">/</td>
+        <td onclick="goBack()" class="operator"><i width="10px" class="fas fa-backspace"></i></td>
+    </tr>
+    <tr>
+        <td onclick="clickNum('7')" class="num">7</td>
+        <td onclick="clickNum('8')" class="num">8</td>
+        <td onclick="clickNum('9')" class="num">9</td>
+        <td onclick="clickOperator('X')" class="operator">X</td>
+    </tr>
+    <tr>
+        <td onclick="clickNum('4')" class="num">4</td>
+        <td onclick="clickNum('5')" class="num">5</td>
+        <td onclick="clickNum('6')" class="num">6</td>
+        <td onclick="clickOperator('-')" class="operator">-</td>
+    </tr>
+    <tr>
+        <td onclick="clickNum('1')" class="num">1</td>
+        <td onclick="clickNum('2')" class="num">2</td>
+        <td onclick="clickNum('3')" class="num">3</td>
+        <td onclick="clickOperator('+')" class="operator">+</td>
+    </tr>
+    <tr>
+        <td class="operator"></td>
+        <td onclick="clickNum('0')" class="num">0</td>
+        <td onclick="clickOperator('.')" class="operator">,</td>
+        <td onclick="clickEqual()" class="equal">=</td>
+    </tr>
+</table>
+
+
+<%- include ('../footer.ejs') %>
