@@ -70,9 +70,6 @@ function init(callback) {
 /* ROUTES */
  
 function loadRoutes(callback) {
-    // expressApp.get('/', function (req, res) {
-    //     res.render('homepage/index');
-    // });
 
     expressApp.get('/', indexController.calculatrice);
  
